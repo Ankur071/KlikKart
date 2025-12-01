@@ -44,13 +44,13 @@ KlikKart/
 │       │   ├── Navbar.jsx
 │       │   ├── Product.jsx
 │       │   └── UpdateProduct.jsx
-│       ├── Context/
+│       ├── context/
 │       │   └── Context.jsx
 │       ├── App.jsx
 │       ├── axois.jsx
 │       └── main.jsx
 │
-└── products Image/               # Product images storage
+└── product-images/               # Product images storage
 ```
 
 ## ✨ Features
@@ -147,7 +147,9 @@ cd ecom-proj
 
 ## 📄 License
 
-This project is open source and anyone can use it and make contribution.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+This project is open source and anyone can use it and make contributions.
 
 ## 👨‍💻 Author
 

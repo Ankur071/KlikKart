@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import AddProduct from "./components/AddProduct";
 import Product from "./components/Product";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AppProvider } from "./Context/Context";
+import { AppProvider } from "./context/Context";
 import UpdateProduct from "./components/UpdateProduct";
 function App() {
   return (
