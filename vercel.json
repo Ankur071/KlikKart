@@ -2,7 +2,6 @@
   "version": 2,
   "buildCommand": "cd ecom-frontend && npm install && npm run build",
   "outputDirectory": "ecom-frontend/dist",
-  "framework": null,
   "rewrites": [
     {
       "source": "/(.*)",
