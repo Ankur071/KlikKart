@@ -26,8 +26,8 @@ A clear and concise description of what actually happened.
 If applicable, add screenshots to help explain your problem.
 
 ## Environment
-- OS: [e.g., Windows 10, macOS 12.0, Ubuntu 20.04]
-- Browser: [e.g., Chrome 96, Firefox 95]
+- OS: [e.g., Windows 11, macOS 14.0, Ubuntu 22.04]
+- Browser: [e.g., Chrome 120+, Firefox 120+, Safari 17+]
 - Node.js version: [e.g., 18.0.0]
 - Java version: [e.g., 17.0.1]
 
