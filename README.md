@@ -47,7 +47,7 @@ KlikKart/
 │       ├── context/
 │       │   └── Context.jsx
 │       ├── App.jsx
-│       ├── axios.jsx
+│       ├── axois.jsx
 │       └── main.jsx
 │
 └── product-images/               # Product images storage
