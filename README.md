@@ -137,6 +137,38 @@ cd ecom-proj
 ./mvnw test
 ```
 
+## 🚢 Deployment
+
+### Deploying Frontend to Vercel
+
+The repository is configured for Vercel deployment with `vercel.json` at the root level.
+
+**Option 1: Deploy via Vercel Dashboard**
+
+1. Go to [Vercel](https://vercel.com) and sign in
+2. Click "Add New Project"
+3. Import your GitHub repository
+4. Vercel will automatically detect the `vercel.json` configuration
+5. Click "Deploy"
+
+**Option 2: Deploy via Vercel CLI**
+
+1. Install Vercel CLI:
+   ```bash
+   npm install -g vercel
+   ```
+
+2. Deploy from the repository root:
+   ```bash
+   vercel
+   ```
+
+**Important Notes:**
+- The `vercel.json` configuration specifies the frontend location (`ecom-frontend` directory)
+- Build output is generated in `ecom-frontend/dist`
+- Client-side routing is configured to prevent 404 errors on page refresh
+- The backend (Spring Boot) needs to be deployed separately to a service like Railway, Render, or Heroku
+
 ## 🤝 Contributing
 
 1. Fork the repository
