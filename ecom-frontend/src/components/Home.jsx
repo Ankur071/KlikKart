@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import AppContext from "../Context/Context";
+import AppContext from "../context/Context";
 
 const Home = () => {
   const { data, isError } = useContext(AppContext);
